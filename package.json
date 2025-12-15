@@ -29,9 +29,9 @@
     "test:watch": "web-test-runner test/**/*.test.js --node-resolve --watch"
   },
   "dependencies": {
-    "lit": "3.3.1",
     "@haxtheweb/d-d-d": "^11.0.5",
-    "@haxtheweb/i18n-manager": "^11.0.0"
+    "@haxtheweb/i18n-manager": "^11.0.0",
+    "lit": "3.3.1"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.16.4",
@@ -42,7 +42,8 @@
     "@rollup/plugin-node-resolve": "16.0.1",
     "@rollup/plugin-terser": "^0.4.4",
     "@web/dev-server": "0.4.6",
-    "@web/rollup-plugin-html": "^2.3.0",
+    "@web/dev-server-esbuild": "^1.0.4",
+    "@web/rollup-plugin-html": "^2.4.1",
     "@web/rollup-plugin-import-meta-assets": "2.3.0",
     "@web/test-runner": "^0.19.0",
     "babel-plugin-template-html-minifier": "^4.1.0",
